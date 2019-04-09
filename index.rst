@@ -128,6 +128,8 @@ Input and example data
 
 Additional information, help
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+- Full materials for the webinar is available `here <https://wiki.cyverse.org/wiki/display/Events/FFW%3A+Doing+metagenomic+analyses+with+QIIME+2+using+Jupyter+Notebooks+in+VICE>`_
+
 - See the original `JupyterLab quick start <https://learning.cyverse.org/projects/vice/en/latest/user_guide/quick-jupyter.html>`_ 
 
 - See the original `qiime2.org <https://qiime2.org>`_ for how to run qiime2 analysis
