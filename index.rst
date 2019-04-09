@@ -21,6 +21,14 @@ Goal
 
 In this quick start, we will show you how to launch JupyterLab-QIIME2 VICE app in DE
 
+.. raw:: html
+
+    <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; height: auto;">
+        <iframe src="https://www.youtube.com/embed/9AT2YHkduz0" frameborder="0" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe>
+    </div>
+
+----
+
 Prerequisites
 -------------
 
@@ -38,6 +46,8 @@ Downloads, access, and services
 	    * - CyVerse account
 	      - You will need a CyVerse account to complete this exercise
 	      - `Register <https://user.cyverse.org/>`_
+
+----
 
 Platform(s)
 ~~~~~~~~~~~
@@ -58,6 +68,8 @@ Platform(s)
       - `DE Manual <https://wiki.cyverse.org/wiki/display/DEmanual/Table+of+Contents>`_
       - `Guide <https://learning.cyverse.org/projects/discovery-environment-guide/en/latest/>`__
 
+----
+
 Input and example data
 ~~~~~~~~~~~~~~~~~~~~~~
 
@@ -75,7 +87,7 @@ Input and example data
       - Any sequencing reads in FastQ format will work. They do not
         need to be pre-processed. They may also be compressed (e.g.
         fastq.gz)
-      - gut microbiome
+      - gut microbiome (iplantcollaborative > example_data > qiime2  and select gut-microbiome folder)
 
 -----
 
@@ -118,12 +130,11 @@ Additional information, help
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 - See the original `JupyterLab quick start <https://learning.cyverse.org/projects/vice/en/latest/user_guide/quick-jupyter.html>`_ 
 
-- See the original qiime2.org for how to run qiime2 analysis
+- See the original `qiime2.org <https://qiime2.org>`_ for how to run qiime2 analysis
 
 - Search for an answer: `CyVerse Learning Center <http://learning.cyverse.org>`_ or `CyVerse Wiki <https://wiki.cyverse.org>`_
 
-- Post your question to the user forum:
-`Ask CyVerse <http://ask.iplantcollaborative.org/questions>`_
+- Contact CyVerse support by clicking the intercom button on the page.
 
 ----
 
