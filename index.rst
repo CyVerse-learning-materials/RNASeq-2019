@@ -6,6 +6,28 @@
 Quick start of JupyterLab-QIIME2 VICE app in DE
 ================================================
 
+UPDATE: Newest version QIIME-2019.7
+----
+The new version for JupyterLab-QIIME2 in VICE now has the capabilities for in-line visualizations right in the jupyter notebook.
+
+Simply import the qiime2 module into the python notebook:
+
+.. code-block:: python
+
+   import qiime2
+
+And use the following command to view your .qzv files in-line with your jupyter notebook:
+
+.. code-block:: python
+
+   qiime2.Visualizations.load('demux.qzv')
+
+
+This provides all of the perks of using view.qiime2.org to visualize your .qzv files, but you don't need to change tabs. Additionally, everything is kept in the notebook which can be used as a lab notebook or for reproducibility.
+
+----
+
+
 Goal
 ----
 
