@@ -25,6 +25,8 @@ And use the following command to view your .qzv files in-line with your jupyter 
 
 This provides all of the perks of using view.qiime2.org to visualize your .qzv files, but you don't need to change tabs. Additionally, everything is kept in the notebook which can be used as a lab notebook or for reproducibility.
 
+**IMPORTANT**: Save all needed output files in the vice directory. Files not in the vice directory will not be retained in your data store analyses folder.
+
 ----
 
 
