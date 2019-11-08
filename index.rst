@@ -10,7 +10,7 @@ Quick start of RNA-seq analysis in DE
 Goal
 ----
 
-Perform RNAseq differential expression analysis using Read Mapping and Transcript Assembly (RMTA) and DESEq2 apps 
+Perform RNAseq differential expression analysis using Read Mapping and Transcript Assembly (RMTA) and Rstudio-DESEq2 apps 
 
 
 
@@ -75,7 +75,7 @@ Platform(s)
 
 .. Note:: 
 
-Click the below button for quick launch of RMTA-2.6.1 analysis with test data
+Right-Click the below button and open in a new tab for quick launch of RMTA-2.6.1 analysis with test data
 	
 	|rmta-2.6.1|_
 
@@ -95,7 +95,7 @@ Click the below button for quick launch of RMTA-2.6.1 analysis with test data
 
    .. Note::
 
-	    The quick launch feature comes pre-loaded with required files for performing read mapping and transcript assembly of the test data.
+	    The quick launch feature comes pre-loaded with required files (reference genome, annotation and single-end fastq reads) for performing read mapping and transcript assembly of the test data.
 
 6. Under "Resource Requirements" request resources as needed or leave for defaults 
 
@@ -110,7 +110,7 @@ navigate to that analysis folder in your data store.
 
 .. Note::
 
-  We will need the "feature_counts.txt" file from the "Feature_counts" folder in the "RMTA_Output" folder
+  We will need the "feature_counts.txt" file from the "Feature_counts" folder in the "RMTA_Output" folder for next differential expression analysis.
 
 ----
 
@@ -119,7 +119,7 @@ navigate to that analysis folder in your data store.
 
 .. Note::
 
-Click the below button for quick launch of Rstudio-DESeq2 VICE app
+Right-Click the below button and open in a new tab for quick launch of Rstudio-DESeq2 VICE app
 
 	|RMTA-deseq2|_
 	    
@@ -135,23 +135,25 @@ Click the below button for quick launch of Rstudio-DESeq2 VICE app
 
 4. Under “Analysis Name” leave the defaults or make any desired notes.
 
+5. Under "Select input files and folder" add the "feature_counts.txt" file we got from our previous RMTA run.
+
    .. Note::
 
 	    The quick launch feature comes pre-loaded with DESeq2 R script.
 
-5. Under "Resource Requirements" request resources as needed or leave for defaults 
+6. Under "Resource Requirements" request resources as needed or leave for defaults.
 
-6. Click **Launch Analysis**. You will receive a notification that the job has been submitted and running with the "Access your running analysis here". 
+7. Click **Launch Analysis**. You will receive a notification that the job has been submitted and running with the "Access your running analysis here". 
 
-7. Clicking on the "Access your running analysis" will open the Rstudio-DESeq2 in another tab in the browser after a brief building phase.
+8. Clicking on the "Access your running analysis" will open the Rstudio-DESeq2 in another tab in the browser after a brief building phase.
 
 .. Note::
 
   You will be asked to authenticate again to the Rstudio with your CyVerse username and password
 
-8. The username and password for logging into Rstudio are "rstudio".
+9. The username and password for logging into Rstudio are "rstudio".
 
-9. Finally, once you finish analysis, navigate to the DE tab, select the Analysis window and select the analysis, click "save and complete analysis". Upon clicking complete analysis, the analysis will be completed and all the outputs will be brought back to the analysis folder.
+10. Finally, once you finish analysis, navigate to the DE tab, select the Analysis window and select the analysis, click "save and complete analysis". Upon clicking complete analysis, the analysis will be completed and all the outputs will be brought back to the analysis folder.
 
 ----
 
@@ -192,20 +194,20 @@ Additional information, help
 
 .. |RMTA_quick_launch_1| image:: ./img/RMTA_quick_launch_1.png
     :width: 450
-    :height: 250
+    :height: 200
 .. _RMTA_quick_launch_1: http://learning.cyverse.org/
 .. |RMTA_quick_launch_3| image:: ./img/RMTA_quick_launch_3.png
     :width: 450
-    :height: 250
+    :height: 200
 .. _RMTA_quick_launch_3: http://learning.cyverse.org/
 
 .. |DESeq2_quick_launch_1| image:: ./img/DESeq2_quick_launch_1.png
     :width: 450
-    :height: 250
+    :height: 200
 .. _DESeq2_quick_launch_1: http://learning.cyverse.org/
 .. |DESeq2_quick_launch_3| image:: ./img/DESeq2_quick_launch_3.png
     :width: 450
-    :height: 250
+    :height: 200
 .. _DESeq2_quick_launch_3: http://learning.cyverse.org/
 
 .. |RNAseq_Webinar_test_data| image:: ./img/RNAseq_Webinar_test_data.png
