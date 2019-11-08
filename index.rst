@@ -121,7 +121,11 @@ Click the below button for quick launch of RMTA-deseq2 analysis
 
 2. Click on the three dots button near the top-right corner of the app and click on "Quick Launch".
 
+|DESeq2_quick_launch_1|_
+
 3. Click on the "RNAseq_Webinar_DESEq2" quick launch and click on the play button to launch.
+
+|DESeq2_quick_launch_2|_ |DESeq2_quick_launch_3|_
 
 4. Under “Analysis Name” leave the defaults or make any desired notes.
 
@@ -189,6 +193,19 @@ Additional information, help
     :height: 100
 .. _CyVerse logo: http://learning.cyverse.org/
 .. |RMTA_quick_launch_3| image:: ./img/RMTA_quick_launch_3.png
+    :width: 500
+    :height: 100
+.. _CyVerse logo: http://learning.cyverse.org/
+
+.. |DESeq2_quick_launch_1| image:: ./img/DESeq2_quick_launch_1.png
+    :width: 500
+    :height: 100
+.. _CyVerse logo: http://learning.cyverse.org/
+.. |DESeq2_quick_launch_2| image:: ./img/DESeq2_quick_launch_2.png
+    :width: 500
+    :height: 100
+.. _CyVerse logo: http://learning.cyverse.org/
+.. |DESeq2_quick_launch_3| image:: ./img/DESeq2_quick_launch_3.png
     :width: 500
     :height: 100
 .. _CyVerse logo: http://learning.cyverse.org/
