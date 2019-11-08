@@ -83,7 +83,7 @@ Click the below button for quick launch of RMTA-2.6.1 analysis with test data
 
 3. Click on the "RNAseq_Webinar_RMTA" quick launch and click on the play button to launch.
 
-|RMTA_quick_launch_2|_ |RMTA_quick_launch_3|_
+|RMTA_quick_launch_3|_
 
 2. Under “Analysis Name” leave the defaults or make any desired notes.
 
@@ -125,7 +125,7 @@ Click the below button for quick launch of RMTA-deseq2 analysis
 
 3. Click on the "RNAseq_Webinar_DESEq2" quick launch and click on the play button to launch.
 
-|DESeq2_quick_launch_2|_ |DESeq2_quick_launch_3|_
+|DESeq2_quick_launch_3|_
 
 4. Under “Analysis Name” leave the defaults or make any desired notes.
 
@@ -184,15 +184,11 @@ Additional information, help
 .. _RMTA-deseq2: https://de.cyverse.org/de/?type=quick-launch&quick-launch-id=1444198d-068f-4cf1-a3d1-df30e6d678f2&app-id=58f9a86c-2a74-11e9-b289-008cfa5ae621
 
 .. |RMTA_quick_launch_1| image:: ./img/RMTA_quick_launch_1.png
-    :width: 300
+    :width: 500
     :height: 100
 .. _RMTA_quick_launch_1: http://learning.cyverse.org/
-.. |RMTA_quick_launch_2| image:: ./img/RMTA_quick_launch_2.png
-    :width: 250
-    :height: 100
-.. _RMTA_quick_launch_2: http://learning.cyverse.org/
 .. |RMTA_quick_launch_3| image:: ./img/RMTA_quick_launch_3.png
-    :width: 250
+    :width: 500
     :height: 100
 .. _RMTA_quick_launch_3: http://learning.cyverse.org/
 
@@ -200,12 +196,8 @@ Additional information, help
     :width: 300
     :height: 100
 .. _DESeq2_quick_launch_1: http://learning.cyverse.org/
-.. |DESeq2_quick_launch_2| image:: ./img/DESeq2_quick_launch_2.png
-    :width: 250
-    :height: 100
-.. _DESeq2_quick_launch_2: http://learning.cyverse.org/
 .. |DESeq2_quick_launch_3| image:: ./img/DESeq2_quick_launch_3.png
-    :width: 250
+    :width: 500
     :height: 100
 .. _DESeq2_quick_launch_3: http://learning.cyverse.org/
 
