@@ -185,20 +185,20 @@ Additional information, help
 
 .. |RMTA_quick_launch_1| image:: ./img/RMTA_quick_launch_1.png
     :width: 500
-    :height: 100
+    :height: 250
 .. _RMTA_quick_launch_1: http://learning.cyverse.org/
 .. |RMTA_quick_launch_3| image:: ./img/RMTA_quick_launch_3.png
     :width: 500
-    :height: 100
+    :height: 250
 .. _RMTA_quick_launch_3: http://learning.cyverse.org/
 
 .. |DESeq2_quick_launch_1| image:: ./img/DESeq2_quick_launch_1.png
-    :width: 300
-    :height: 100
+    :width: 500
+    :height: 250
 .. _DESeq2_quick_launch_1: http://learning.cyverse.org/
 .. |DESeq2_quick_launch_3| image:: ./img/DESeq2_quick_launch_3.png
     :width: 500
-    :height: 100
+    :height: 250
 .. _DESeq2_quick_launch_3: http://learning.cyverse.org/
 
 .. |CyVerse logo| image:: ./img/cyverse_rgb.png
