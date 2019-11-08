@@ -209,7 +209,7 @@ Additional information, help
 
 .. |RNAseq_Webinar_test_data| image:: ./img/RNAseq_Webinar_test_data.png
     :width: 500
-    :height: 100
+    :height: 250
 .. _RNAseq_Webinar_test_data: http://learning.cyverse.org/
 
 .. |CyVerse logo| image:: ./img/cyverse_rgb.png
