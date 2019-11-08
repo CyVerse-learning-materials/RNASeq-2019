@@ -163,11 +163,10 @@ Click the below button for quick launch of Rstudio-DESeq2 VICE app
 
 Additional information, help
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-- Full materials for the webinar is available `here <https://wiki.cyverse.org/wiki/display/Events/FFW%3A+Doing+metagenomic+analyses+with+QIIME+2+using+Jupyter+Notebooks+in+VICE>`_
 
-- See the original `JupyterLab quick start <https://learning.cyverse.org/projects/vice/en/latest/user_guide/quick-jupyter.html>`_ 
+- See the `RMTA wiki <https://wiki.cyverse.org/wiki/display/DEapps/RMTA+v2.6.1>`_ 
 
-- See the original `qiime2.org <https://qiime2.org>`_ for how to run qiime2 analysis
+- See beginner's guide to `DESeq2 <https://workshop.eupathdb.org/bop/pdfs/beginner_DeSeq2.pdf>`_
 
 - Search for an answer: `CyVerse Learning Center <http://learning.cyverse.org>`_ or `CyVerse Wiki <https://wiki.cyverse.org>`_
 
