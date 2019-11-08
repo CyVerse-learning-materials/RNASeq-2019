@@ -180,6 +180,19 @@ Additional information, help
 .. |RMTA-deseq2| image:: https://de.cyverse.org/Powered-By-CyVerse-blue.svg
 .. _RMTA-deseq2: https://de.cyverse.org/de/?type=quick-launch&quick-launch-id=1444198d-068f-4cf1-a3d1-df30e6d678f2&app-id=58f9a86c-2a74-11e9-b289-008cfa5ae621
 
+.. |RMTA_quick_launch_1| image:: ./img/RMTA_quick_launch_1.png
+    :width: 500
+    :height: 100
+.. _CyVerse logo: http://learning.cyverse.org/
+.. |RMTA_quick_launch_2| image:: ./img/RMTA_quick_launch_2.png
+    :width: 500
+    :height: 100
+.. _CyVerse logo: http://learning.cyverse.org/
+.. |RMTA_quick_launch_3| image:: ./img/RMTA_quick_launch_3.png
+    :width: 500
+    :height: 100
+.. _CyVerse logo: http://learning.cyverse.org/
+
 .. |CyVerse logo| image:: ./img/cyverse_rgb.png
     :width: 500
     :height: 100
