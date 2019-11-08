@@ -119,7 +119,7 @@ navigate to that analysis folder in your data store.
 
 .. Note::
 
-Click the below button for quick launch of RMTA-deseq2 analysis
+Click the below button for quick launch of Rstudio-DESeq2 VICE app
 
 	|RMTA-deseq2|_
 	    
@@ -147,9 +147,11 @@ Click the below button for quick launch of RMTA-deseq2 analysis
 
 .. Note::
 
-  You will be asked to authenticate again to the JupyterLab with your CyVerse username and password
+  You will be asked to authenticate again to the Rstudio with your CyVerse username and password
 
-8. Finally, once you finish analysis, navigate to the DE tab, select the Analysis window and select the analysis, click "save and complete analysis". Upon clicking complete analysis, the analysis will be completed and all the outputs will be brought back to the analysis folder.
+8. The username and password for logging into Rstudio are "rstudio".
+
+9. Finally, once you finish analysis, navigate to the DE tab, select the Analysis window and select the analysis, click "save and complete analysis". Upon clicking complete analysis, the analysis will be completed and all the outputs will be brought back to the analysis folder.
 
 ----
 
