@@ -3,7 +3,7 @@
 |Home_Icon|_
 `Learning Center Home <http://learning.cyverse.org/>`_
 
-Quick start of JupyterLab-QIIME2 VICE app in DE
+Quick start of RNA-seq analysis in DE
 ================================================
 
 UPDATE: Newest version QIIME-2019.7
@@ -100,61 +100,78 @@ Platform(s)
 
 ----
 
-Input and example data
-~~~~~~~~~~~~~~~~~~~~~~
 
-*In order to complete this quickstart you will need to have the following inputs prepared*
-
-.. list-table::
-    :header-rows: 1
-
-    * - Input File(s)
-      - Format
-      - Preparation/Notes
-      - Example Data
-    * - Sequencing reads
-      - `FastQ <https://en.wikipedia.org/wiki/FASTQ_format>`_
-      - Any sequencing reads in FastQ format will work. They do not
-        need to be pre-processed. They may also be compressed (e.g.
-        fastq.gz)
-      - gut microbiome (iplantcollaborative > example_data > qiime2  and select gut-microbiome folder)
-
------
-
-*Get started: Launch JupyterLab-QIIME2*
+*Get started: Quick Launch RMTA_v2.6.1 with test data*
 ---------------------------------------
 
+Quick Launch Analysis
+   .. Note::
+
+	    Click this button to launch the RMTA v2.6.1 app <a href="https://de.cyverse.org/de/?type=quick-launch&quick-launch-id=21524cbf-6d26-4a62-a8e6-bef731938255&app-id=ed43b8be-daf5-11e9-9393-008cfa5ae621" target="_blank"><img src="https://de.cyverse.org/Powered-By-CyVerse-blue.svg"></a>
+	    
+	    
 1. Login to the |discovery_enviornment|.
 
-2. Click on **Apps** window in the DE workspace and search for and run JupyterLab-Qiime2-2018.11.
-
-3. Under “Analysis Name” leave the defaults or make any desired notes.
-
-4. Under “Parameters” for ‘Input folder' or 'Input files', click Browse, then navigate to and
-   select one or more FastQ files to analyze; Then click OK.
+2. Under “Analysis Name” leave the defaults or make any desired notes.
 
    .. Note::
 
-	    To use our example data, navigate to *Community Data >*
-	    *iplantcollaborative > example_data > qiime2  and select gut-microbiome folder.*
+	    The quick launch feature comes pre-loaded with required files for performing read mapping and transcript assembly of the test data. All you need to do is...
 
-5. Click **Launch Analysis**. You will receive a notification that the job has been submitted and running with the "Access your running analysis here". 
+3. Under "Resource Requirements" request resources as needed or leave for defaults 
 
-6. Clicking on the "Access your running analysis" will open the JupyterLab-QIIME2 in another tab in the browser after a brief building phase.
+4. Click **Launch Analysis**. You will receive a notification that the job has been submitted and running.
+
+.. Note::
+
+  You will be notified when the analysis has finished successfully.
+
+8. Click on the "Analyses" button to display the dashboard of your analyses. Click on your RMTA anlaysis to
+navigate to that analysis folder in your data store. 
+
+.. Note::
+
+  We will need the "feature_counts.txt" file from the "Feature_counts" folder in the "RMTA_Output" folder
+
+----
+
+*Launch Rstudio-DESEq2 VICE app with test script*
+---------------------------------------
+
+Quick Launch Button
+   .. Note::
+
+	    Click this button to launch Rstudio-DESeq2 VICE app <a href="https://de.cyverse.org/de/?type=quick-launch&quick-launch-id=1444198d-068f-4cf1-a3d1-df30e6d678f2&app-id=58f9a86c-2a74-11e9-b289-008cfa5ae621" target="_blank"><img src="https://de.cyverse.org/Powered-By-CyVerse-blue.svg"></a>
+	    
+	    
+1. CLick on "Apps" tab in the Discovery Enviornment and search for "Rstudio-DESeq2" and click on it to launch the app.
+
+2. Under “Analysis Name” leave the defaults or make any desired notes.
+
+   .. Note::
+
+	    The quick launch feature comes pre-loaded with DESeq2 R script. All you need to do is...
+
+3. Under "Resource Requirements" request resources as needed or leave for defaults 
+
+4. Click **Launch Analysis**. You will receive a notification that the job has been submitted and running with the "Access your running analysis here". 
+
+6. Clicking on the "Access your running analysis" will open the Rstudio-DESeq2 in another tab in the browser after a brief building phase.
 
 .. Note::
 
   You will be asked to authenticate again to the JupyterLab with your CyVerse username and password
 
-7. You will see the input data under "vice" folder of the JuptyerLab. Now you can upload your own Jupyter Notebook or create one using one of the available kernels
-
-.. warning::
-
-  Do not create or store any outputs inside the input folder (gut-microbiome) as those outputs are not brought back after the analysis
-
 8. Finally, once you finish analysis, navigate to the DE tab, select the Analysis window and select the analysis, click "save and complete analysis". Upon clicking complete analysis, the analysis will be completed and all the outputs will be brought back to the analysis folder.
 
 ----
+
+   .. Note::
+
+	    To use our example data, navigate to *Community Data >*
+	    *iplantcollaborative > example_data > RNAseq_Webinar  and select RNAseq_Webinar_fastq_dump folder.*
+
+
 
 Additional information, help
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
