@@ -6,44 +6,13 @@
 Quick start of RNA-seq analysis in DE
 ================================================
 
-UPDATE: Newest version QIIME-2019.7
-----
-The new version for JupyterLab-QIIME2 in VICE now has the capabilities for in-line visualizations right in the jupyter notebook.
-
-.. raw:: html
-
-   <div style="position: relative; padding-bottom: 56.25%; height: 0;"><iframe src="https://www.loom.com/embed/7c20c565bf0e490084cfb8e4b62bfb63" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
-
-
-
-Simply import the qiime2 module into the python notebook:
-
-.. code-block:: python
-
-   import qiime2
-
-And use the following command to view your .qzv files in-line with your jupyter notebook:
-
-.. code-block:: python
-
-   qiime2.Visualizations.load('demux.qzv')
-
-
-This provides all of the perks of using view.qiime2.org to visualize your .qzv files, but you don't need to change tabs. Additionally, everything is kept in the notebook which can be used as a lab notebook or for reproducibility.
-
-**IMPORTANT**: Save all needed output files in the vice directory. Files not in the vice directory will not be retained in your data store analyses folder.
-
-----
-
 
 Goal
 ----
 
-`QIIME 2™ <https://qiime2.org/>`_ is a next-generation microbiome bioinformatics platform that is extensible, free, open source, and community developed. 
+Perform RNAseq differential expression analysis using Read Mapping and Transcript Assembly (RMTA) and DESEq2 apps 
 
-- Automatically track your analyses with decentralized data provenance — no more guesswork on what commands were run!
 
-- Interactively explore your data with beautiful visualizations that provide new perspectives.
 
 - Easily share results with your team, even those members without QIIME 2 installed.
 
@@ -101,7 +70,7 @@ Platform(s)
 ----
 
 
-*Get started: Quick Launch RMTA_v2.6.1 with test data*
+*Quick Launch RMTA_v2.6.1 with test data*
 ---------------------------------------
 
 Quick Launch Analysis
@@ -144,19 +113,23 @@ Quick Launch Button
 	    Click this button to launch Rstudio-DESeq2 VICE app <a href="https://de.cyverse.org/de/?type=quick-launch&quick-launch-id=1444198d-068f-4cf1-a3d1-df30e6d678f2&app-id=58f9a86c-2a74-11e9-b289-008cfa5ae621" target="_blank"><img src="https://de.cyverse.org/Powered-By-CyVerse-blue.svg"></a>
 	    
 	    
-1. CLick on "Apps" tab in the Discovery Enviornment and search for "Rstudio-DESeq2" and click on it to launch the app.
+1. CLick on "Apps" tab in the Discovery Enviornment and search for "Rstudio-DESeq2".
 
-2. Under “Analysis Name” leave the defaults or make any desired notes.
+2. Click on the three dots button near the top-right corner of the app and click on "Quick Launch".
+
+3. Click on the "RNAseq_Webinar_DESEq2" quick launch and click on the play button to launch.
+
+4. Under “Analysis Name” leave the defaults or make any desired notes.
 
    .. Note::
 
 	    The quick launch feature comes pre-loaded with DESeq2 R script. All you need to do is...
 
-3. Under "Resource Requirements" request resources as needed or leave for defaults 
+5. Under "Resource Requirements" request resources as needed or leave for defaults 
 
-4. Click **Launch Analysis**. You will receive a notification that the job has been submitted and running with the "Access your running analysis here". 
+6. Click **Launch Analysis**. You will receive a notification that the job has been submitted and running with the "Access your running analysis here". 
 
-6. Clicking on the "Access your running analysis" will open the Rstudio-DESeq2 in another tab in the browser after a brief building phase.
+7. Clicking on the "Access your running analysis" will open the Rstudio-DESeq2 in another tab in the browser after a brief building phase.
 
 .. Note::
 
@@ -168,8 +141,8 @@ Quick Launch Button
 
    .. Note::
 
-	    To use our example data, navigate to *Community Data >*
-	    *iplantcollaborative > example_data > RNAseq_Webinar  and select RNAseq_Webinar_fastq_dump folder.*
+	    To use our example script, navigate to *Community Data >*
+	    *iplantcollaborative > example_data > RNAseq_Webinar  and select DESeq2_script.R*
 
 
 
