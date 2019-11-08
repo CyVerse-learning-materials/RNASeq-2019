@@ -14,9 +14,9 @@ Perform RNAseq differential expression analysis using Read Mapping and Transcrip
 
 
 
-- Easily share results with your team, even those members without QIIME 2 installed.
+- RMTA is a workflow that can rapidly process raw RNA-seq illumina data by mapping reads to a genome (HiSat2), assemble transcripts using Stringtie and count reads using featureCounts.
 
-- Plugin-based system — your favorite microbiome methods all in one place.
+- DESeq2 is a R package to analyze count tables for differentially expressed genes, visualize the results, add extra gene annotations, and cluster samples and genes using transformed counts
 
 In this quick start, we will show you how to launch RMTA app and Rstudio-DESeq2 VICE app in DE
 
@@ -64,7 +64,7 @@ Platform(s)
 ----
 
 *Test data for webinar*
-
+~~~~~~~~~~~~~~~~~~~~~~
 
 |RNAseq_Webinar_test_data|_
 
@@ -156,7 +156,7 @@ Click the below button for quick launch of RMTA-deseq2 analysis
    .. Note::
 
 	    To use our example script, navigate to *Community Data >*
-	    *iplantcollaborative > example_data > RNAseq_Webinar  and select DESeq2_script.R*
+	    *iplantcollaborative > example_data > RNAseq_Webinar *
 
 
 Additional information, help
