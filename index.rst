@@ -166,7 +166,9 @@ Right-Click the below button and open in a new tab for quick launch of Rstudio-D
 Additional information, help
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-- See the `RMTA wiki <https://wiki.cyverse.org/wiki/display/DEapps/RMTA+v2.6.1>`_ 
+- Link to `Webinar Prezi <https://prezi.com/2oyda-v_oags/?utm_campaign=share&utm_medium=copy>`_ 
+
+- See detailed `RMTA wiki <https://wiki.cyverse.org/wiki/display/DEapps/RMTA+v2.6.1>`_ 
 
 - See beginner's guide to `DESeq2 <https://workshop.eupathdb.org/bop/pdfs/beginner_DeSeq2.pdf>`_
 
