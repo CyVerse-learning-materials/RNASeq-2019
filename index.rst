@@ -190,7 +190,7 @@ Additional information, help
 .. _RMTA-deseq2: https://de.cyverse.org/de/?type=quick-launch&quick-launch-id=1444198d-068f-4cf1-a3d1-df30e6d678f2&app-id=58f9a86c-2a74-11e9-b289-008cfa5ae621
 
 .. |RMTA_quick_launch_1| image:: ./img/RMTA_quick_launch_1.png
-    :width: 45000
+    :width: 450
     :height: 250
 .. _RMTA_quick_launch_1: http://learning.cyverse.org/
 .. |RMTA_quick_launch_3| image:: ./img/RMTA_quick_launch_3.png
