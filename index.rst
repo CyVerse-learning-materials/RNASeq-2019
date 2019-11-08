@@ -198,15 +198,15 @@ Additional information, help
 .. _RMTA_quick_launch_3: http://learning.cyverse.org/
 
 .. |DESeq2_quick_launch_1| image:: ./img/DESeq2_quick_launch_1.png
-    :width: 200
+    :width: 300
     :height: 100
 .. _DESeq2_quick_launch_1: http://learning.cyverse.org/
 .. |DESeq2_quick_launch_2| image:: ./img/DESeq2_quick_launch_2.png
-    :width: 200
+    :width: 250
     :height: 100
 .. _DESeq2_quick_launch_2: http://learning.cyverse.org/
 .. |DESeq2_quick_launch_3| image:: ./img/DESeq2_quick_launch_3.png
-    :width: 200
+    :width: 250
     :height: 100
 .. _DESeq2_quick_launch_3: http://learning.cyverse.org/
 
