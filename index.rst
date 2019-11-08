@@ -63,6 +63,12 @@ Platform(s)
 
 ----
 
+*Test data for webinar*
+
+
+|RNAseq_Webinar_test_data|_
+
+----
 
 *Launch RMTA_v2.6.1 with test data*
 ---------------------------------------
@@ -200,6 +206,11 @@ Additional information, help
     :width: 450
     :height: 250
 .. _DESeq2_quick_launch_3: http://learning.cyverse.org/
+
+.. |RNAseq_Webinar_test_data| image:: ./img/RNAseq_Webinar_test_data.png
+    :width: 500
+    :height: 100
+.. _RNAseq_Webinar_test_data: http://learning.cyverse.org/
 
 .. |CyVerse logo| image:: ./img/cyverse_rgb.png
     :width: 500
