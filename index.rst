@@ -18,13 +18,7 @@ Perform RNAseq differential expression analysis using Read Mapping and Transcrip
 
 - Plugin-based system — your favorite microbiome methods all in one place.
 
-In this quick start, we will show you how to launch JupyterLab-QIIME2 VICE app in DE
-
-.. raw:: html
-
-    <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; height: auto;">
-        <iframe src="https://www.youtube.com/embed/9AT2YHkduz0" frameborder="0" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe>
-    </div>
+In this quick start, we will show you how to launch RMTA app and Rstudio-DESeq2 VICE app in DE
 
 ----
 
@@ -70,24 +64,32 @@ Platform(s)
 ----
 
 
-*Quick Launch RMTA_v2.6.1 with test data*
+*Launch RMTA_v2.6.1 with test data*
 ---------------------------------------
-
-Quick Launch Analysis
 
 .. Note:: 
 
-Click the below button for quick launch of RMTA-2.6.1 analysis
+Click the below button for quick launch of RMTA-2.6.1 analysis with test data
 	
 	|rmta-2.6.1|_
 
 1. Login to the |discovery_enviornment|.
 
+2. CLick on "Apps" tab in the Discovery Enviornment and search for "RMTA v2.6.1".
+
+2. Click on the three dots button near the top-right corner of the app and click on "Quick Launch".
+
+|RMTA_quick_launch_1|_
+
+3. Click on the "RNAseq_Webinar_RMTA" quick launch and click on the play button to launch.
+
+|RMTA_quick_launch_2|_ |RMTA_quick_launch_3|_
+
 2. Under “Analysis Name” leave the defaults or make any desired notes.
 
    .. Note::
 
-	    The quick launch feature comes pre-loaded with required files for performing read mapping and transcript assembly of the test data. All you need to do is...
+	    The quick launch feature comes pre-loaded with required files for performing read mapping and transcript assembly of the test data.
 
 3. Under "Resource Requirements" request resources as needed or leave for defaults 
 
@@ -108,8 +110,6 @@ navigate to that analysis folder in your data store.
 
 *Launch Rstudio-DESEq2 VICE app with test script*
 ---------------------------------------
-
-Quick Launch Button
 
 .. Note::
 
@@ -153,7 +153,6 @@ Click the below button for quick launch of RMTA-deseq2 analysis
 	    *iplantcollaborative > example_data > RNAseq_Webinar  and select DESeq2_script.R*
 
 
-
 Additional information, help
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 - Full materials for the webinar is available `here <https://wiki.cyverse.org/wiki/display/Events/FFW%3A+Doing+metagenomic+analyses+with+QIIME+2+using+Jupyter+Notebooks+in+VICE>`_
@@ -185,15 +184,15 @@ Additional information, help
 .. _RMTA-deseq2: https://de.cyverse.org/de/?type=quick-launch&quick-launch-id=1444198d-068f-4cf1-a3d1-df30e6d678f2&app-id=58f9a86c-2a74-11e9-b289-008cfa5ae621
 
 .. |RMTA_quick_launch_1| image:: ./img/RMTA_quick_launch_1.png
-    :width: 200
+    :width: 300
     :height: 100
 .. _RMTA_quick_launch_1: http://learning.cyverse.org/
 .. |RMTA_quick_launch_2| image:: ./img/RMTA_quick_launch_2.png
-    :width: 200
+    :width: 250
     :height: 100
 .. _RMTA_quick_launch_2: http://learning.cyverse.org/
 .. |RMTA_quick_launch_3| image:: ./img/RMTA_quick_launch_3.png
-    :width: 200
+    :width: 250
     :height: 100
 .. _RMTA_quick_launch_3: http://learning.cyverse.org/
 
