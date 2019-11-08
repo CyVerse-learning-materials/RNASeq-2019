@@ -83,23 +83,23 @@ Click the below button for quick launch of RMTA-2.6.1 analysis with test data
 
 2. CLick on "Apps" tab in the Discovery Enviornment and search for "RMTA v2.6.1".
 
-2. Click on the three dots button near the top-right corner of the app and click on "Quick Launch".
+3. Click on the three dots button near the top-right corner of the app and click on "Quick Launch".
 
 |RMTA_quick_launch_1|_
 
-3. Click on the "RNAseq_Webinar_RMTA" quick launch and click on the play button to launch.
+4. Click on the "RNAseq_Webinar_RMTA" quick launch and click on the play button to launch.
 
 |RMTA_quick_launch_3|_
 
-2. Under “Analysis Name” leave the defaults or make any desired notes.
+5. Under “Analysis Name” leave the defaults or make any desired notes.
 
    .. Note::
 
 	    The quick launch feature comes pre-loaded with required files for performing read mapping and transcript assembly of the test data.
 
-3. Under "Resource Requirements" request resources as needed or leave for defaults 
+6. Under "Resource Requirements" request resources as needed or leave for defaults 
 
-4. Click **Launch Analysis**. You will receive a notification that the job has been submitted and running.
+7. Click **Launch Analysis**. You will receive a notification that the job has been submitted and running.
 
 .. Note::
 
