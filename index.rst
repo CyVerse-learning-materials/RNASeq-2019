@@ -137,7 +137,7 @@ Click the below button for quick launch of RMTA-deseq2 analysis
 
    .. Note::
 
-	    The quick launch feature comes pre-loaded with DESeq2 R script. All you need to do is...
+	    The quick launch feature comes pre-loaded with DESeq2 R script.
 
 5. Under "Resource Requirements" request resources as needed or leave for defaults 
 
